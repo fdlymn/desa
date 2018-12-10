@@ -1,0 +1,136 @@
+body{
+    height:1000px;
+}
+
+header{
+    position: relative;
+    top:0;
+    left:0;
+    right:0;
+    background:#0099ff;
+    z-index: 1000;
+    animation: opening 1s;
+}
+
+
+
+.nav-link{
+    transition: .3s;
+}
+
+.nav-link:hover{
+    background: #0099ff;
+}
+
+
+.dropdown-item{
+    transition: .3s;
+}
+
+.dropdown-item:hover{
+    border-left: 4px solid #0099ff;
+}
+
+.slidernya .imgSlide{
+    width:100% !important;
+    height: 500px;
+}
+
+.greet{
+    background: #fff;
+}
+
+.greet h1{
+    margin-top:30px;
+}
+
+.greetContent{
+    border-bottom:5px solid #C9C6C6;
+}
+
+.blog{
+    
+}
+
+.blog a{
+    text-decoration: none;
+    color:#666;
+}
+
+.blog a img{
+    width: 170px;
+    display: block;
+    margin:0 auto;
+    width:100%;
+    
+}
+
+.blog .selengkapnya{
+    position: absolute;
+    top:15%;
+    left:0;
+    right:0;
+}
+
+.blog a.rdmore{
+    padding: 5px;
+    transition: .3s ;
+    border-radius: 0px;
+    color:#666;
+}
+
+.blog a.rdmore:hover{
+    border: 1px solid gray;
+    border-radius: 6px;
+    background: #19DF25;
+    color:#000;
+
+    
+}
+
+.blogg{
+    border:1px solid black;
+    border-radius: 10px;
+    color:#666;
+    box-shadow: 0px 0px 0px #666;
+    transition: .3s;
+    
+}
+
+.blogg .blogContent{
+    padding: 15px;
+}
+
+a.ainimg{
+    
+}
+
+.blogg:hover{
+    box-shadow: 1px 1px 8px #666;
+    transform: scale(1.01);
+}
+
+.fade{
+
+}
+
+footer{
+    position: relative;
+    bottom:0;
+    left:0;
+    right:0;
+    background: #666;
+    text-align: center;
+    padding: 20px;
+    color:white;
+    font-size: 1.3em;
+}
+
+@keyframes opening{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
