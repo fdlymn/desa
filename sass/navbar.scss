@@ -1,0 +1,50 @@
+header{
+    position: relative;
+    top:0;
+    left:0;
+    right:0;
+    height:85px;
+    background:#0099ff;
+    z-index: 1000;
+    animation: opening 1s;
+
+    .insideHeader{
+        margin-left:15px;
+        padding-top:4px;
+        ul{
+            display: flex;
+        }
+
+        ul li.liGaruda{
+            margin-right: 10px;
+            
+        }
+    }
+
+    img.garuda{
+        flex-basis: 3;
+    }
+
+    h3{
+        font-size: 2em;
+    }
+
+    h5{
+        font-size: 1.3em;
+    }
+
+    h3,h5{
+        margin:0;
+        color:white;
+        padding:0;
+    }
+
+}
+
+nav{
+    position: relative;
+    top:0;
+    left:0;
+    right:0;
+    background: red;
+}
